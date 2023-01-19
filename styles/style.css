@@ -177,7 +177,7 @@ body{
 ***********************/
 
 .project{
-    display: flex;
+    display: flex; /* Removing width and changing flex for inline-flex solve the zoom issue, but the page will not be the way I want it to be */
     align-items: center;
     justify-content: left;
     flex-direction: row;
