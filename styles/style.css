@@ -150,7 +150,15 @@ body{
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
     border: 2px solid black;
+    margin-bottom: 25px;
 }
+
+@media only screen and (max-width: 1800px) { /* This way, if zoomed (Or going on ipad) there will always be space between the showcards) */
+    .showcard {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+  }
 
 .showcard img{
     width: 250px;
