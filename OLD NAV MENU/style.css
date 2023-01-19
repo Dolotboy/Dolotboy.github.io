@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+html, 
+body{
+    padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	/*background-repeat: no-repeat;
+	background-size: 100%, 100%;*/
+    font: 400 16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/*background: url("../images/background2.png");*/
+    background-color: #fdfdfd;
+    /* Create the scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.god-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.options-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    flex: 1;
+}
+
+.options-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 15%;
+    border-radius: 50px/25px; /* Cylinder Shape */
+    background-color: rgba(1,1,1,0.5);
+}
+
+.option{
+    color: rgba(0, 169, 236, 1);
+    text-decoration: none;
+    /* Circle Around Icon*/
+    border-radius: 50%;
+    border: 1px solid;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: rgba(255,255,255, 0)
+}
+
+.option:hover{
+    color:white;
+    border: 2px solid rgba(0, 169, 236, 1);
+    border-radius: 50%;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    flex: 10;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sub-header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile-picture{
+    width: 400px;
+    height: 400px;
+}
+
+.circle{
+    border-radius: 50%;
+    border: 5px solid rgba(0, 169, 236, 1);
+}
+
+.mid-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.underline{
+    text-decoration: underline rgba(0, 169, 236, 1) 5px;
+}
+
+.show-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.linkImgCardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkImgCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkImg{
+    width: 50px;
+    height: 50px;
+}
+
+/***********************
+     PROJECTS.HTML
+***********************/
+
+.imgHref{
+    text-decoration: none;
+}
+
+.projectSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.project{
+    display: flex;
+    align-items: center; /* Up to down */
+    justify-content: left; /* Left to right */
+    flex-direction: row;
+    width: 30%;
+    height: 300px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.projectThumbnail{
+    width: 150px;
+    height: 150px;
+}
+
+.projectInfoContainer{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.projectTagCardsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.projectTagCard{
+    padding: 0 0.1em 0 0.1em;
+    display: inline-block;
+    font-size: 0.75em;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 70%);
+}
+
+.projectLinksContainer{
+
+}
+
+.projectLinkImg{
+    width: 25px;
+    height: 25px;
+}
