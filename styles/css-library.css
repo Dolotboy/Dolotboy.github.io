@@ -198,6 +198,13 @@ body{
     background-color: #101010;
 }
 
+@media only screen and (max-width: 1400px) { /* Fix menu when not mobile, but not full screen either */ 
+    .nav-item{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
 @media only screen and (max-width: 980px) {
     .nav-menu {
         position: absolute; /* Menu will stay on top when scrolling, change to fixed to change this */
