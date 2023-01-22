@@ -198,35 +198,19 @@ body{
     width: 100%;
 }
 
-.footer{
+.showcard-detailed-horizontal{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
     flex-direction: row;
-    width: 50%;
+    width: 600px; /* Switched from % to px to solve responsive problems */
+    height: 275px;
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-/***********************
-     PROJECTS.HTML
-***********************/
-
-.project{
-    display: flex; /* Removing width and changing flex for inline-flex solve the zoom issue, but the page will not be the way I want it to be */
-    align-items: center;
-    justify-content: left;
-    flex-direction: row;
-    width: 30%;
-    height: 300px;
-    padding: 10px;
-    border: 2px solid black;
-}
-
-.projectThumbnail{
-    width: 150px;
-    height: 150px;
-}
-
-.projectInfoContainer{
+.showcard-detailed-horizontal-img-container{
     display: flex;
     align-items: left;
     justify-content: center;
@@ -234,14 +218,27 @@ body{
     padding-left: 10px;
 }
 
-.projectTagCardsContainer{
+.showcard-detailed-horizontal-img{
+    width: 150px;
+    height: 150px;
+}
+
+.showcard-detailed-horizontal-info-container{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.showcard-detailed-horizontal-tag-container{
     display: flex;
     align-items: center;
     justify-content: left;
     flex-wrap: wrap;
 }
 
-.projectTagCard{
+.showcard-detailed-horizontal-tag{
     padding: 0 0.1em 0 0.1em;
     display: inline-block;
     font-size: 0.75em;
@@ -253,11 +250,30 @@ body{
     box-shadow: 0 1px 6px 0 rgb(32 33 36 / 70%);
 }
 
-.projectLinksContainer{
-
-}
-
-.projectLinkImg{
+.showcard-detailed-horizontal-link-img{
     width: 25px;
     height: 25px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 50%;
+}
+
+/***********************
+    BOX SHADOWS
+***********************/
+.box-shadow-normal-bottom-left-lightgray{
+    box-shadow: -10px 5px 5px lightgray;
+}
+
+/***********************
+    BACKGROUND COLORS
+***********************/
+
+.background-color-whitesmoke{
+    background-color: whitesmoke;
 }
