@@ -164,6 +164,9 @@ body{
     P  R  E   -   B  U  I  L  T
 ************************************/
 
+/***********************
+    MOBILE NAVBAR
+***********************/
 .navbar{
     display: flex;
     align-items: center;
@@ -330,12 +333,24 @@ body{
     SHOWCARD-DETAILED
 ***********************/
 
-.showcard-detailed-horizontal{
+.showcard-detailed-horizontal-m{
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
     width: 600px; /* Switched from % to px to solve responsive problems */
+    height: 275px;
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.showcard-detailed-horizontal-l{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 75%; /* Switched from % to px to solve responsive problems */
     height: 275px;
     padding: 20px;
     margin-top: 5px;
