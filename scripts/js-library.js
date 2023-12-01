@@ -30,5 +30,5 @@ function changeLink() {
         theLink.href = "cv_fr_2024.pdf";
         theObject.data = "cv_fr_2024.pdf"
     }
-  }
+  } 
   
